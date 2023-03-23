@@ -7,7 +7,7 @@ export default function Summary() {
       <div className={`summary--component${i + 1} flex items-center justify-between p-4 rounded mb-2`} key={i + 1}>
         <div className="summary--component__detail flex items-center">
           <img src={dataEl.icon} alt={`icon ${dataEl.category}`} />
-          <p className="ml-2 font-bold text-orangeYellow">{dataEl.category}</p>
+          <p className={`ml-2 font-bold text-${dataEl.color}`}>{dataEl.category}</p>
         </div>
 
         <div className="detail--score flex items-center gap-1">

@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  purge: ['./src/*.jsx', './src/components/*.jsx', './public/index.html'],
+  purge: {
+    content: ['./src/*.jsx', './src/components/*.jsx', './public/index.html'],
+    safelist: ['text-lightRed', 'text-orangeYellow', 'text-greenTeal', 'text-cobaltBlue'],
+  },
   theme: {
     screens: {
       sm: '480px',
