@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-results-summary-component-page-built-using-react-tailwind-lFSj4aXNx7)
+- Live Site URL: [Click Here](https://summary-component-main.netlify.app/)
 
 ## My process
 
